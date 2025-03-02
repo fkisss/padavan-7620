@@ -1,5 +1,14 @@
 # padavan #
 
+        ##科学上网##
+        echo "CONFIG_FIRMWARE_INCLUDE_SHADOWSOCKS=y" >> .config
+        #echo "CONFIG_FIRMWARE_INCLUDE_V2RAY=y" >> .config #mini太小，内置不进
+        #echo "CONFIG_FIRMWARE_INCLUDE_XRAY=y" >> .config #mini太小，内置不进
+        #echo "CONFIG_FIRMWARE_INCLUDE_TROJAN=y" >> .config #mini太小，内置不进
+        #echo "CONFIG_FIRMWARE_INCLUDE_SSOBFS=y" >> .config 
+
+不能使用vmess
+
 ### 基于TSL大佬的padavan4.4版本，做了一些自己的缝合和优化，比较适合养老！ 支持一键action编译自己的定制固件，插件增删在trunk/configs/tempaltes修改！
 - 科学上网做了很多的优化，gfw和绕过模式+chinadns-ng都能正常使用，gfw列表更新地址也放出来可以设置。
 - zerotier和frpc都更新到最新，都正常使用。异地组网的好搭档。
